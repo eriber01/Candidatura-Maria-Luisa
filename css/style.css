@@ -41,22 +41,8 @@ nav{
 /*Diseno header fin*/
 
 
-
-.container{
-    margin: auto;
-    
-    margin-top: 30px;
-    border-radius:  20px;
+.dadkj{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 60vh;
-}
 
-.img-1{
-    width: 60%;
-}
-.img-2{
-    width: 100%;
+    justify-content: space-around;
 }
