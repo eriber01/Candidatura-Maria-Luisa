@@ -12,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -20,10 +21,12 @@
     <header>    
       <img src="img/header-psd.png" alt="">
 
-        <nav class="nav nav-pills flex-column flex-sm-row">
+        <nav class="nav nav-pills flex-column flex-sm-row position-top">
 
           <a class="flex-sm-fill text-sm-center nav-link" href="#">Inicio</a>
+          <hr class="hr1">
           <a class="flex-sm-fill text-sm-center nav-link" href="#">Nosotros</a >
+          <hr class="hr2">
           <a class="flex-sm-fill text-sm-center nav-link" href="#">Contacto</a>
             
         </nav>
@@ -31,15 +34,94 @@
        
     </header>
       
-   
-    <div class="container-fluid">
-      <div class=" d-flex row justify-content: space-around" style="height: 100%;">
-        <img class="col-sm-3" src="img/diputada-pueblo-side.jpg" alt="">
-        <img class="col-sm-5" src="img/diputada-pueblo-center.jpg" alt="">
-        <img class="col-sm-3" src="img/diputada-pueblo-side.jpg" alt="">
+    <div class="container-fluid img-colage">
+      <div class="row d-flex justify-content-center mt-4 text-sm-center">
+        <div class="col-sm-3 mt-5">
+          <img class="rounded img-fluid" src="img/diputada-pueblo-side.jpg" alt="">
+        </div>
+        <div class="col-sm-4 mt-2 centro">
+          <img class="rounded img-fluid" src="img/diputada-pueblo-center.jpg" alt="">
+        </div>
+        <div class="col-sm-3 mt-5">
+          <img class="rounded img-fluid" src="img/diputada-pueblo-side.jpg" alt="">
+        </div>
       </div>
     </div>
-    
+
+    <!--nosotros secction-->
+    <section class="container text-center mt-5 nosotros">
+
+      <h1 class="mb-5 ">Nosotros</h1>
+      <div class="row mb-3">
+        <div class="col-sm-6 d-flex align-items-center">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur ipsum labore voluptates culpa facere sed accusamus? Ut libero excepturi earum quasi, a, harum ratione quod veritatis labore non neque?</p>
+        </div>
+
+        <div class="col-sm-6">
+          <img class="img-fluid rounded" src="img/diputada-pueblo-center.jpg" alt="">      
+        </div>
+      </div>
+      
+      <div class="row">
         
+        <div class="col-sm-6">
+          <img class="img-fluid rounded" src="img/diputada-pueblo-center.jpg" alt="">
+        </div>
+        
+        <div class="col-sm-6 d-flex align-items-center">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur ipsum labore voluptates culpa facere sed accusamus? Ut libero excepturi earum quasi, a, harum ratione quod veritatis labore non neque?</p>
+        </div>
+
+      </div>
+
+      <div class="info row text-center mb-xl-5">
+        <div class="col-sm-6 mx-auto">
+          <img src="img/diputada-pueblo-side.jpg" alt="" class="img-fluid">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit.
+          </p>
+        </div>
+      </div>      
+
+    </section>
+      <br>
+    <section class="card-footer text-center d-flex flex-column">
+
+      <div class="row d-flex justify-content-between mt-4">
+        <div class="col-sm-3 mt-4">
+          <h4>Contactos</h4>
+          <span>808-654-6656</span>
+        </div>
+        <div class="col-sm-6">
+          <h3>Comprometidos con el Pueblo</h3>
+          <blockquote class="blockquote mt-lg-5">
+            <p>“Si no puedo ver por mí mismo la liberación de este pueblo, la veré a través de mis ideas”</p>
+            <footer class="blockquote-footer">Juan Bosch</footer>
+          </blockquote>
+        </div>
+
+        <div class="col-sm-3 mt-4">
+          
+          <h4 class="mb-4">Redes Sociales</h4>
+          <img src="img/ico/facebook-color.png" alt="">
+            <p>Facebook</p>
+          <img src="img/ico/instagram-color.png" alt="">
+          
+          <p>Instragram</p>
+          
+          <img src="img/ico/whatsapp-color.png" alt="">
+          
+          <p>Whatsapp</p>
+        </div>
+      </div>
+
+      <div class="pro mt-5">
+          <span>Diseño: Eriber Tejeda</span>
+          <br>
+          <span>809-433-9691</span>
+      </div>
+
+    </section>
+
 </body>
 </html>

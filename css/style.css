@@ -40,9 +40,40 @@ nav{
 
 /*Diseno header fin*/
 
+/*.img-colage img{
+    width: 50%;
+}
+*/
+.hr1, .hr2{
+    
+    border-top: 1px white solid;
+    margin: 0;
+}
 
-.dadkj{
-    display: flex;
+.nosotros img{
+    width: 50%;
+    border-radius: 5px;
+}
 
-    justify-content: space-around;
+.info{
+    width: 90%;
+    margin: auto;
+
+    margin-top: 10%;
+}
+
+.card-footer{
+    height: 100%;
+    background-color: #0F83E9;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+blockquote p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.pro{
+    font-size: 16px;
 }
