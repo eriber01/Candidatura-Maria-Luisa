@@ -68,6 +68,10 @@ nav{
     margin-top: 10%;
 }
 
+.frase{
+    font-family: 'Lobster', cursive;
+    color: rgba(64, 64, 250, 0.582);
+}
 .card-footer{
     height: 100%;
     background-color: #0F83E9;
@@ -75,6 +79,7 @@ nav{
     font-family: 'Montserrat', sans-serif;
     
 }
+
 
 blockquote p{
     font-size: 15px;
@@ -99,3 +104,21 @@ blockquote p{
     margin: auto;
     margin-bottom: 30px;
 }
+
+
+
+
+/*query clases*/
+
+.menu-top{
+    top: 0;
+    position: fixed;
+    z-index: 100; 
+    width: 100%;
+}
+
+.none{
+    display: none;
+}
+
+/*query clases*/
