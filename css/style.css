@@ -117,3 +117,15 @@ blockquote p{
 }
 
 /*query clases*/
+
+
+.navbar a{
+    color: white !important;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: black !important;
+    transition: all 400ms ease-in-out;
+    border-radius: 5px;
+}
