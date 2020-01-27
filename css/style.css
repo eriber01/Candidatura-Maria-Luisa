@@ -49,9 +49,15 @@ nav{
     border-top: 1px white solid;
     margin: 0;
 }
+/*
+.nosotros{
+    background-color: #f374a041;
+    border-radius: 10px;
+    
+}*/
 
 .nosotros img{
-    width: 50%;
+    width: 75%;
     border-radius: 5px;
 }
 
@@ -67,13 +73,29 @@ nav{
     background-color: #0F83E9;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 blockquote p{
     font-size: 15px;
     text-align: center;
+
+    margin-top: 120px;
 }
 
 .pro{
     font-size: 16px;
+}
+
+.redes a{
+    margin-left: -130px;
+    color: white;
+    
+}
+
+.re{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 30px;
 }
