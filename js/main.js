@@ -23,13 +23,14 @@
 
     function MostrarNavigation(){
         $("#description").addClass("menu-top")
+    
         
         
     }
 
     function OcultarNavigation(){
-        $("#description").removeClass("menu-top")  
-       
+        $("#description").removeClass("menu-top")
+     
     }
 
     function EvaluarScroll(){

@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgba(219, 219, 219, 0.123);
+    background-color: rgba(219, 219, 219, 0.226);
 }
 
 /*Diseno header inicio*/
@@ -49,13 +49,11 @@ nav{
     border-top: 1px white solid;
     margin: 0;
 }
-/*
-.nosotros{
-    background-color: #f374a041;
-    border-radius: 10px;
-    
-}*/
 
+.sigue h1, .sigue h3{
+    color: blue;
+    font-family: 'Lobster', cursive;
+}
 .nosotros img{
     width: 75%;
     border-radius: 5px;
@@ -113,12 +111,9 @@ blockquote p{
 .menu-top{
     top: 0;
     position: fixed;
-    z-index: 100; 
+    z-index: 10; 
     width: 100%;
-}
-
-.none{
-    display: none;
+   
 }
 
 /*query clases*/
