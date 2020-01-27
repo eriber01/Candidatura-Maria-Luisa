@@ -7,7 +7,7 @@
     $(window).scroll(function(){
         const ScrollDirection = EvaluarScroll()
 
-        if ( window.screen.availWidth > 400 && ScrollDirection && !varScroll) {
+        if ( window.screen.availWidth > 480 && ScrollDirection && !varScroll) {
             
             console.log("abajo")
             varScroll = true
