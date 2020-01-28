@@ -129,3 +129,17 @@ blockquote p{
     transition: all 400ms ease-in-out;
     border-radius: 5px;
 }
+
+#perfil {
+    height: 200px;
+    background-image: url("/img/header-psd-2.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+    #perfil {
+        background-image: url("/img/header-psd.png");
+    }
+}
