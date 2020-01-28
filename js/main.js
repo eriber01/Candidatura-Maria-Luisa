@@ -56,3 +56,21 @@
 
 
 
+
+/*
+
+;function app() {
+    if (window.innerWidth <= 400) {
+
+        $("#perfil").attr("src", "img/header-psd-2.png");
+       console.log("ajdhkasjdha")
+
+       console.log($(window).height());
+    }
+}*/
+
+
+
+
+
+
