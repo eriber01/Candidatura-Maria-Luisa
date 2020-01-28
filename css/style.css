@@ -131,7 +131,9 @@ blockquote p{
 }
 
 #perfil {
-    height: 200px;
+    height: 300px;
+    width: 100%;
+  
     background-image: url("/img/header-psd-2.png");
     background-size: cover;
     background-position: center center;
