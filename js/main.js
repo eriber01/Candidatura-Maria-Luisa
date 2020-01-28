@@ -1,13 +1,22 @@
 ;(function(){
 
+
+
+
     let varScroll = false
 
     console.log($(window).height());
 
+    if (window.innerWidth <= 420) {
+
+        $("#perfil").attr("src", "img/header-psd-2.png");
+       console.log($(window).height());
+    }
+
     $(window).scroll(function(){
         const ScrollDirection = EvaluarScroll()
 
-        if ( window.screen.availWidth > 480 && ScrollDirection && !varScroll) {
+        if ( window.screen.availHeight > 480 && ScrollDirection && !varScroll) {
             
             console.log("abajo")
             varScroll = true
@@ -50,8 +59,15 @@
 
 
 
+;function app() {
+    if (window.innerWidth <= 400) {
 
+        $("#perfil").attr("src", "img/header-psd-2.png");
+       console.log("ajdhkasjdha")
 
+       console.log($(window).height());
+    }
+}
 
 
 
