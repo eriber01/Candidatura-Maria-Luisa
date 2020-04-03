@@ -1,76 +1,41 @@
-;(function(){
 
+/* reload page */
+document.querySelector('#home').addEventListener('click', function(eve){
+    location.reload();
+})
 
-
-
-    let varScroll = false
-
-    console.log($(window).height());
-
-    if (window.innerWidth <= 420) {
-
-        $("#perfil").attr("src", "img/header-psd-2.png");
-       console.log($(window).height());
+/* scroll cambio de posicion del nav */
+window.onscroll = function(){
+    if (document.documentElement.scrollTop > 310) {
+        console.log('abajo 310')
+        
+        document.querySelector('#nav-top').classList.add('menu-top')
+    }else if (document.documentElement.scrollTop < 310) {
+        console.log('arriba 310')
+        document.querySelector('#nav-top').classList.remove('menu-top')
     }
+}
 
-    $(window).scroll(function(){
-        const ScrollDirection = EvaluarScroll()
 
-        if ( window.screen.availHeight > 480 && ScrollDirection && !varScroll) {
-            
-            console.log("abajo")
-            varScroll = true
-            MostrarNavigation()
-        }
-        if (!ScrollDirection && varScroll) {
-            
-            console.log("arriba")
-            varScroll = false
-            OcultarNavigation();
-        }
+/* scroll nosotros */
+
+document.querySelector('#nosotros').addEventListener('click', function(eve){
+    console.log('funcoan noso');
+
+    window.scrollTo({
+        top: 1346,
+        behavior: 'smooth'
+    })
+})
+
+
+/* scroll contactos */
+document.querySelector('#contactos').addEventListener('click', function(eve) {
+    console.log('funciona');
+    window.scrollTo({
+        top: 99999999,
+        behavior: 'smooth'
     })
 
-    function MostrarNavigation(){
-        $("#description").addClass("menu-top")
-    
-        
-        
-    }
-
-    function OcultarNavigation(){
-        $("#description").removeClass("menu-top")
-     
-    }
-
-    function EvaluarScroll(){
-        const $description = $("#description")
-        const descriptionHeight = $description.height()
-
-        return $(window).scrollTop() > $(window).height() - (descriptionHeight * 8.3)
-    }
-
-})()
-
-
-
-
-
-
-
-/*
-
-;function app() {
-    if (window.innerWidth <= 400) {
-
-        $("#perfil").attr("src", "img/header-psd-2.png");
-       console.log("ajdhkasjdha")
-
-       console.log($(window).height());
-    }
-}*/
-
-
-
-
-
+})
 

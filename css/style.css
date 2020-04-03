@@ -91,9 +91,9 @@
     }
 
     .redes a{
-        margin-left: -130px;
-        color: white;
-        
+        display: flex;
+        flex-direction: column;
+        color: white;   
     }
 
     .re{
